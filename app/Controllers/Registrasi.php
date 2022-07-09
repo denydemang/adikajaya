@@ -9,6 +9,6 @@ class Registrasi extends BaseController
         $data = [
             'judul' => 'Halaman Registrasi',
         ];
-        return view('registrasi', $data);
+        return view('Registrasi/index', $data);
     }
 }
